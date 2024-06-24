@@ -23,28 +23,28 @@
             <nav class="navbar navbar-expand navbar-light bg-light">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo $url_base ?>secciones/Inicio" aria-current="page"
+                        <a class="nav-link active" href="http:/MAXIPAGINA/secciones/Inicio" aria-current="page"
                             >Inicio <span class="visually-hidden">(current)</span></a
                         >
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $url_base ?>secciones/Sobremi">Sobre Mi</a>
+                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/Sobremi">Sobre Mi</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $url_base ?>secciones/Servicios">Servicios</a>
+                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/Servicios">Servicios</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $url_base; ?>./secciones/inicio">Desarrollo web y diseño UX/UI</a>
+                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Desarrollo_web_DiseñadorUX_UI">Desarrollo web y diseño UX/UI</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $url_base; ?>./secciones/Diplomas">Diplomas</a>
+                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Diplomas">Diplomas</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $url_base; ?>./secciones/Contacto">Contacto</a>
+                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Contacto">Contacto</a>
                     </li>
 
                     

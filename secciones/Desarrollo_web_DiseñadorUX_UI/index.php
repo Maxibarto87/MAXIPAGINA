@@ -1,4 +1,4 @@
 <?php require_once("../../templates/header.php") ?>
-Desarrllo web
+DESARROLLO WEB
 
 <?php require_once("../../templates/footer.php") ?>

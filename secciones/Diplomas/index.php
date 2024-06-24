@@ -1,4 +1,6 @@
 <?php require_once("../../templates/header.php") ?>
-Diplomas
+
+    <title>Diplomas</title>
+
 
 <?php require_once("../../templates/footer.php") ?>
