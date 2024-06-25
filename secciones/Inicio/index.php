@@ -7,7 +7,7 @@
     <title>Inicio</title>
 </head>
 <body>
-    <p><b>Hola!! soy Maximiliano Bartomeoli. Soy desarrollador web full stack, diseñador UX/UI y reparador de Pc </b></p>
+    <p><b>Hola!! Soy Maximiliano Bartomeoli. Soy desarrollador web full stack, diseñador UX/UI y reparador de Pc. </b></p>
 
     <p>Esta es mi página web, aca le comento a lo que me dedico..</p>
 </body>

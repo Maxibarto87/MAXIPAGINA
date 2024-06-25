@@ -31,20 +31,17 @@
                         <a class="nav-link" href="http:/MAXIPAGINA/secciones/Sobremi">Sobre Mi</a>
                     </li>
 
+
                     <li class="nav-item">
-                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/Servicios">Servicios</a>
+                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/DesarrolloWeb">Desarrollo web y Diseño UX/UI</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Desarrollo_web_DiseñadorUX_UI">Desarrollo web y diseño UX/UI</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Diplomas">Diplomas</a>
+                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/Diplomas">Diplomas</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="<http:/MAXIPAGINA/secciones/Contacto">Contacto</a>
+                        <a class="nav-link" href="http:/MAXIPAGINA/secciones/Contacto">Contacto</a>
                     </li>
 
                     
