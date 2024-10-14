@@ -1,5 +1,13 @@
 <?php require_once("../../templates/header.php") ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Sobremi/style.css"
+    <title>Sobre mi</title>
+</head>
+<body>
     <h1>Sobre mi</h1>
     <p>Soy apacionado de la informatica. Arranque el año 2014 haciendo el curso de 
          reparador de Pc, en el año 2022 arranque el curso de programador tambien 
@@ -9,3 +17,7 @@
     <img src="../../IMG_20230624_161626133.jpg" alt="Foto de maxi y sus caracteristicas" srcset="">
 
 <?php require_once("../../templates/footer.php") ?>
+</body>
+</html>
+
+    

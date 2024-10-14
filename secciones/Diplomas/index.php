@@ -21,5 +21,8 @@
         <hr>
         <img src="../img/Diploma Python.jpg" alt="">
     </div>
+    <script src="./diploma.js"></script>
+
+    </script>
 </body>
 </html>
