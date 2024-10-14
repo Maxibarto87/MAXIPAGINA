@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,121,9,1) 18%, rgba(0,212,255,1) 100%);
+}
+
+.diplomas {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slideshow {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow.active {
+    opacity: 1;
+
+}
+
+.diplomas img
+{
+    width: 600px; /* Cambia el ancho de la imagen */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
