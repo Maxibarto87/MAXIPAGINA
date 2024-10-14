@@ -1,0 +1,40 @@
+.body 
+{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    font-family: Arial, sans-serif;
+    background: rgb(42,220,221);
+background: linear-gradient(90deg, rgba(42,220,221,1) 0%, rgba(74,233,238,1) 5%, rgba(141,203,197,1) 12%, rgba(110,232,97,1) 70%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+input::-webkit-input-placeholder { /* Chrome, Edge, Safari */
+    color: #666;
+  }
+  
+  input:-moz-placeholder { /* Firefox 19+ */
+    color: #666;
+  }
+  
+  input::-moz-placeholder { /* Firefox 18- */
+    color: #666;
+  }
+  
+  input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #666;
+  }
+
+  .textarea-form-control {
+    width: 100%; /* O el ancho que prefieras */
+    height: 250px; /* Ajusta esta altura según lo que necesites */
+    resize: none; /* Esto evita que el usuario cambie el tamaño del textarea */
+}
+
+form textarea
+{
+    font-family:'Times New Roman', Times, serif;
+    
+
+}

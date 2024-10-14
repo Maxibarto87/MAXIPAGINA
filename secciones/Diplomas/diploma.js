@@ -1,13 +1,9 @@
-let slides = document.querySelectorAll('.slideshow');
-let currentSlide = 0;
-let slideInterval = setInterval(nextSlide, 3000);
+const diplomas = document.querySelector('.diplomas');
 
-function nextSlide() {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].classList.add('active');
+// Función para desplazar las imágenes automáticamente
+function scrollDiplomas() {
+    diplomas.scrollBy(20, 0); // Ajusta el valor para controlar la velocidad
 }
 
-window.onload = function() {
-    slides[currentSlide].classList.add('active');
-};
+// Iniciar el desplazamiento automático
+setInterval(scrollDiplomas, 2000); // Ajusta el intervalo en milisegundos
