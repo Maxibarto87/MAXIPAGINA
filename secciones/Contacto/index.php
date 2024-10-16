@@ -34,7 +34,7 @@
         </div>
         
     </div>
-   
+   <script src="textarea.js"></script>
 </body>
 </html>
 

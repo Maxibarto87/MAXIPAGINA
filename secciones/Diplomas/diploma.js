@@ -1,3 +1,5 @@
+let diPlomas 
+
 const diplomas = document.querySelector('.diplomas');
 
 // Función para desplazar las imágenes automáticamente

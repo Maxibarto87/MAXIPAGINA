@@ -32,9 +32,38 @@ input::-webkit-input-placeholder { /* Chrome, Edge, Safari */
     resize: none; /* Esto evita que el usuario cambie el tamaño del textarea */
 }
 
+form input,
+form textarea {
+    border: 2px;
+    border-bottom: 2px solid #555;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+
+
+
+
 form textarea
 {
-    font-family:'Times New Roman', Times, serif;
     
+    font-family:'Times New Roman', Times, serif;
+    resize: none;
+    overflow: hidden;
+    scrollbar-width: 0;
+    height: 38px;
+    max-height: 300px;
+}
 
+form textarea::-webkit-scrollbar {
+    width: 0;
+}
+
+form input:focus, 
+form textarea:focus 
+{
+    border-bottom-color: #187;
+}
 }
