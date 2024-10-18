@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./desarrolloweb.css">
+    <link rel="stylesheet" href="../DesarrolloWeb/desarrolloweb.css">
     <title>Desarrollo web Diseñador UX/UI, Reparador de Pc</title>
 </head>
 <body>
