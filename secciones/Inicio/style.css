@@ -1,27 +1,64 @@
 body {
     font-family: Arial, sans-serif;
-    background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,121,9,1) 18%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(92, 121, 9, 1) 18%, rgba(0, 212, 255, 1) 100%);
   }
   
- 
-  
-  .footer 
+
+  .parrafo
   {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color: #d67171;
-      padding: 10px;
-      text-align: center;
-      background: rgb(0,0,0);
-      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,117,121,1) 6%, rgba(110,232,97,1) 70%, rgba(0,212,255,1) 100%); 
-      gap: 5px;
-   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+
   }
-  .footer .redes-sociales a {
-      margin: 0 10px; /* Añade un margen de 10px a los lados de cada icono */
-      text-decoration: none; /* Elimina subrayado si lo hubiera */
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d67171;
+    padding: 10px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 117, 121, 1) 6%, rgba(110, 232, 97, 1) 70%, rgba(0, 212, 255, 1) 100%);
+    gap: 5px;
   }
   
+  .footer .redes-sociales a {
+    margin: 0 10px; /* Añade un margen de 10px a los lados de cada icono */
+    text-decoration: none; /* Elimina subrayado si lo hubiera */
+  }
+  
+  .titulo-inicio 
+  {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+
+  .servicios {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0 auto; /* Centra el contenedor completo verticalmente */
+    max-width: 800px; 
+    display: flex;/* Ajusta el ancho máximo del contenedor si lo deseas */
+  }
+  
+  .servicios img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade un margen superior para separar la imagen del texto */
+  }
